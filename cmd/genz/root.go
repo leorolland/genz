@@ -2,8 +2,9 @@
 package genz
 
 import (
-	"github.com/Joffref/genz/internal/command"
 	"os"
+
+	"github.com/leorolland/genz/internal/command"
 )
 
 const (

@@ -3,9 +3,10 @@ package genz
 import (
 	"flag"
 	"fmt"
-	"github.com/Joffref/genz/internal/command"
-	"github.com/Joffref/genz/internal/testing"
 	"log"
+
+	"github.com/leorolland/genz/internal/command"
+	"github.com/leorolland/genz/internal/testing"
 )
 
 const (

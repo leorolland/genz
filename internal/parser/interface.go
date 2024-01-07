@@ -4,7 +4,7 @@ import (
 	"go/ast"
 	"go/types"
 
-	"github.com/Joffref/genz/pkg/models"
+	"github.com/leorolland/genz/pkg/models"
 	"golang.org/x/tools/go/packages"
 )
 

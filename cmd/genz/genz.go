@@ -3,7 +3,6 @@ package genz
 import (
 	"flag"
 	"fmt"
-	"github.com/Joffref/genz/internal/parser"
 	"io"
 	"log"
 	"net/http"
@@ -12,9 +11,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Joffref/genz/internal/command"
-	"github.com/Joffref/genz/internal/generator"
-	"github.com/Joffref/genz/internal/utils"
+	"github.com/leorolland/genz/internal/parser"
+
+	"github.com/leorolland/genz/internal/command"
+	"github.com/leorolland/genz/internal/generator"
+	"github.com/leorolland/genz/internal/utils"
 )
 
 type generateCommand struct {

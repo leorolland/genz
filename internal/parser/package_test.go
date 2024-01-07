@@ -1,10 +1,11 @@
 package parser
 
 import (
-	"github.com/Joffref/genz/internal/testutils"
-	"github.com/Joffref/genz/pkg/models"
 	"sort"
 	"testing"
+
+	"github.com/leorolland/genz/internal/testutils"
+	"github.com/leorolland/genz/pkg/models"
 )
 
 func TestParsePackageSuccess(t *testing.T) {

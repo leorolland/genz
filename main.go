@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/Joffref/genz/cmd/genz"
 	"log"
+
+	"github.com/leorolland/genz/cmd/genz"
 )
 
 func main() {

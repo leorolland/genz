@@ -7,7 +7,7 @@ import (
 	"go/types"
 	"strings"
 
-	"github.com/Joffref/genz/pkg/models"
+	"github.com/leorolland/genz/pkg/models"
 
 	"golang.org/x/tools/go/packages"
 )

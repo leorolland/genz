@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Joffref/genz/internal/command"
+	"github.com/leorolland/genz/internal/command"
 )
 
 type testCmd struct{}

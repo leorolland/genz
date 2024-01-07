@@ -3,11 +3,12 @@ package generator_test
 import (
 	"bytes"
 	"errors"
-	"github.com/Joffref/genz/pkg/models"
 	"strings"
 	"testing"
 
-	"github.com/Joffref/genz/internal/generator"
+	"github.com/leorolland/genz/pkg/models"
+
+	"github.com/leorolland/genz/internal/generator"
 	"golang.org/x/tools/go/packages"
 )
 

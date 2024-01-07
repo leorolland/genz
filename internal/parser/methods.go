@@ -6,7 +6,7 @@ import (
 	"go/types"
 	"strings"
 
-	"github.com/Joffref/genz/pkg/models"
+	"github.com/leorolland/genz/pkg/models"
 )
 
 func parseMethod(name string, signature *types.Signature) (models.Method, error) {

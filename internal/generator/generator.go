@@ -4,10 +4,11 @@ package generator
 import (
 	"bytes"
 	"fmt"
-	"github.com/Joffref/genz/pkg/models"
 	"go/format"
 	"html/template"
 	"log"
+
+	"github.com/leorolland/genz/pkg/models"
 
 	"github.com/Masterminds/sprig/v3"
 	"golang.org/x/tools/go/packages"

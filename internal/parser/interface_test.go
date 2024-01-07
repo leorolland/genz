@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Joffref/genz/internal/testutils"
-	"github.com/Joffref/genz/pkg/models"
 	"github.com/google/go-cmp/cmp"
+	"github.com/leorolland/genz/internal/testutils"
+	"github.com/leorolland/genz/pkg/models"
 )
 
 func TestParseInterfaceSuccess(t *testing.T) {

@@ -2,8 +2,9 @@ package genz
 
 import (
 	"flag"
-	"github.com/Joffref/genz/internal/command"
 	"log"
+
+	"github.com/leorolland/genz/internal/command"
 )
 
 const (
